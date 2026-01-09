@@ -1,0 +1,10 @@
+[project]
+name = "test-uv-wildcard"
+version = "0.1.0"
+description = "UV test with wildcard version format"
+requires-python = "3.11.*"
+dependencies = [
+    "requests==2.31.0",
+    "Django==2.2.0",
+    "flask==2.2.5",
+]
